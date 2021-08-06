@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar"> 
+        <ul class="header__menu">
+          <li class="header__option">Home</li>
+          <li class="header__option"><a href="#about">Quem somos</a></li>
+          <li class="header__option"><a href="#cases">Cases</a></li>
+          <li class="header__option"><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <h1 class="home__title">Mini Odontologia</h1>
+
+        <div class="home__search"> 
+          <input class="home__search-bar" type="text" placeholder="Pesquisar por um serviço">
+          <button class="home__btn-search"><i class="fa fa-search"></i></button>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <img
+          class="about__img"
+          src="https://drogariasantoremedio.com.br/wp-content/uploads/2019/04/GettyImages-518435274.jpg" 
+          alt="Criança mostrando os dentes"
+        >
+
+        <div>
+          <article class="about__article about__first-content">
+            <h2 class="about__title">Escolha o melhor para os dentes de quem você mais ama</h2>
+
+            <p class="about__presentation">
+              Aqui na <strong style="color: var(--first-color)">Mini Doctor</strong> nós temos
+              um sessão excluiva para crianças, com profissional preparados e especializados em
+              atendimento infantil de crianças de 4 a 14 anos.
+            </p>
+          </article>
+
+          <article class="about__article about__second-content">
+            <h2 class="about__title about__second-title">Confira nossas vantagens</h2>
+
+            <ul class="about__benefits">
+              <li class="about__advantage">
+                <h3 class="about__advantage-title">+300</h3>
+                <p class="about__text">Aceita mais de 300 planos de saúde.</p>
+              </li>
+
+              <li class="about__advantage">
+                <h3 class="about__advantage-title">24/7</h3>
+                <p class="about__text">Assistencia 24/7 para afiliados.</p>
+              </li>
+
+              <li class="about__advantage">
+                <h3 class="about__advantage-title">50%</h3>
+                <p class="about__text">Primeira consulta com 50% de desconto.</p>
+              </li>
+              
+              <li class="about__advantage">
+                <h3 class="about__advantage-title">10%</h3>
+                <p class="about__text">10% de desconto para cada amigo que fizer uma consulta com 
+                  <strong style="color: var(--first-color)">Mini Doctor</strong>
+                  e dizer que veio por você.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+      </section>
+
+      <section id="servides" class="services">
+        <h2 class="services__title">Conheça alguns dos nos serviços</h2>
+
+        <article>
+          <ul class="services__list">
+            <li class="services__list-item">
+              <p class="services__text">Bichectomia</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Clareamento dental</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Facetas de porcelana e lentes de contato</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Implante dentário</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Bichectomia</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Clareamento dental</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Facetas de porcelana e lentes de contato</p>
+            </li>
+
+            <li class="services__list-item">
+              <p class="services__text">Implante dentário</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside class="services__img">
+          <img src="https://lh3.googleusercontent.com/proxy/rIrHOcTHl0zUlgO1WFTScxJdr93DHcZ02P2n_T8vQaTjch6aMDmuhmsN5ecI-6CeAMBGDV4VocJjgfi0xjP-kqTAKrc2LcNeXT8wvvj5tx-0gtbQdoY12WieONXsxVEt8bxhfca90JAbyuM4Q3PnLxOtkd_29A--A87ghllti6c8NIn4TjGvmoA8AcHWk6tlmhkJcS0M7q4oZCYPSP5OTvc05yeBcco" alt="">
+        </aside>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <article class="footer__content">
+        <div class="footer__contact">
+          <h2 class="footer__title">Contato</h2>
+
+          <ul>
+            <li class="footer__contact-item">
+              <i class="fa fa-envelope"></i>
+              <label for="email">Email</label> 
+              <p>contato@miniodontologia.com</p>
+            </li>
+
+            <li class="footer__contact-item">
+              <i class="fa fa-facebook"></i>
+              <label for="facebook">Facebook</label> 
+              <p>Mini Odontologia</p>
+            </li>
+
+            <li class="footer__contact-item">
+              <i class="fa fa-instagram"></i>
+              <label for="instagram">Instagram</label> 
+              <p>@MiniOdontologia</p>
+            </li>
+
+            <li class="footer__contact-item">
+              <i class="fa fa-linkedin"></i>
+              <label for="linkedin">LinkedIn</label> 
+              <p>Mini Odontologia</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__contact footer__more-options">
+          <h2 class="footer__title">Mais</h2>
+
+          <ul>
+            <li class="footer__contact-item">
+              <a>Quem somos</a>
+            </li>
+
+            <li class="footer__contact-item">
+              <a>Serviços</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <form class="footer__form">
+        <h2 class="footer__form-title">Entre em contato</h2>
+        <input class="footer__input" type="text" placeholder="Digite seu nome">
+        <input class="footer__input" type="email" placeholder="Digite seu email">
+        <button class="footer__btn-send" type="submit">Enviar</button>
+      </form>
+    </footer>
+  </body>
+</html>
