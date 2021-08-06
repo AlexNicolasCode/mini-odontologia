@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: var(--second-color);
+    height: 50vh;
+    color: var(--white-color);
+}
+.footer__content {
+    display: flex;
+    margin-left: 16px;
+}
+.footer__contact {
+    padding-top: 16px;
+    margin-left: 16px;
+}
+.footer__title {
+    margin-bottom: 18px;
+}
+.footer__contact-item {
+    margin-bottom: 8px;
+}
+.footer__more-options {
+    margin-left: 24px;
+}
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 36px;
+}
+.footer__form-title {
+    margin-bottom: 8px;
+}
+.footer__input {
+    background-color: var(--white-color);
+    padding: 8px;
+    width: 300px;
+    height: 16px;
+    outline: none;
+    border: none;
+    margin-bottom: 8px;
+}
+.footer__btn-send {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    position: relative;
+    margin-left: auto;
+}
