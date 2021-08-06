@@ -1,0 +1,35 @@
+.services {
+    margin-top: 15vh;
+    margin-left: 32px;
+    height: 60vh;
+}
+.services__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+.services__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.services__list-item {
+    display: flex;
+    width: 50%;
+}
+.services__text {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.services__img {
+    position: absolute;
+    bottom: -1250px;
+    right: 0px;
+    width: 300px;
+    height: 400px;
+    background-size: auto;
+    overflow: hidden;
+    border-radius: 100px 0px 0 10px;
+}
