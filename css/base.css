@@ -1,0 +1,6 @@
+body {
+    background-color: var(--background);
+}
+h2 {
+    text-transform: capitalize;
+}
